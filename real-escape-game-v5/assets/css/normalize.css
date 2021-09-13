@@ -22,6 +22,8 @@
 
 body {
   margin: 0;
+  background-image: url(/Users/taichi_fujioka/Desktop/real-escape-game-v5/image.png);
+  background-size: cover; 
 }
 
 /**

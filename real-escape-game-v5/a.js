@@ -1,10 +1,10 @@
 window.onload = function() {a();}
-i = 1800;
+i = 3600;
 var a = function(){
           i --;
       u = document.getElementById('p')   
 u.innerHTML=　'残り'　+ i + '秒';
-     if(i < 500){
+     if(i < 600){
      u.className = 't'
      }
      if(i==0){
