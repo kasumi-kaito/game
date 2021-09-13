@@ -7,6 +7,7 @@
   <title>エルサルバドル刑務所からの脱出 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="a.js"></script>
 </head>
 <body>
   <svg width="0" height="0" class="hidden">
@@ -17,16 +18,16 @@
   </svg>
   <header class="header">
     <div class="container">
-      <div class="header__logo"><img src="assets/images/logo.svg" alt="チームロゴ"></div>
+    <img src="ti-mumei.jpg" alt="チームロゴ" id="u">
       <div class="header__name">N・S高生制作サイト</div>
     </div>
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="download.jpg" alt="エルサルバドルの刑務所からの脱出"></h1>
+    <h1 class="main-title"><img src="タイトル 3.jpg" alt="エルサルバドルの刑務所からの脱出" id="s"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
-
+      <p id="p" class="m">残り1800秒</p>
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
 
@@ -34,13 +35,13 @@
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
+            <p class="text-center">まずは、この謎の意味を解かないと友人を助けることができない！<br>
               下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+            <p class="text-center">困ったらヒントを参考にしよう</p>
   
             <div class="container">
               <figure class="image__container">
-                <img src="スクリーンショット 2021-09-03 11.38.15のコピー.png" alt="">
+                <img src="ナゾ１.jpg" alt="" id="e">
               </figure>
                 
  <!--  YouTube貼り付け
@@ -85,9 +86,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">一つ目の謎を解いた！<br>
+                だが、これでは何を伝えたいのかがまだ分からない。<br>
+                次の謎を解いて先に進むぞ！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -130,7 +131,7 @@ Youtube貼り付けここまで -->
                 <div class="column">
                   <!-- STAGE2-1問題セクション　ここから -->
                   <figure class="image__container">
-                    <img src="assets/images/stage.png" alt="">
+                    <img src="ナゾ２.jpg" alt="" id="k">
                   </figure>
                   <!-- STAGE2-1問題セクション　ここまで -->
                   <!-- STAGE2-1解答入力セクション　ここから -->
@@ -202,7 +203,7 @@ Youtube貼り付けここまで -->
               どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
               これらを解決するための最後の謎を解いていこう！</p>
             <figure class="image__container">
-              <img src="assets/images/stage.png" alt="">
+              <img src="ナゾ3.jpg" alt="">
             </figure>
           </div>
         </section>

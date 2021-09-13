@@ -264,7 +264,7 @@ button {
 }
 
 .sub-title__bg {
-  background-color: #fcee21;
+  background-color: grey;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -494,10 +494,6 @@ button {
 /********************
 * Utility
 ********************/
-.text-center {
-  text-align: center;
-}
-
 .text-left {
   text-align: left;
 }
@@ -510,3 +506,45 @@ button {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
+#a{
+  width: 1450px;
+  height: 375px;
+  position: relative;
+  top: 25px;
+  left: 0px
+}
+#i{
+  width: 500px;
+  position: relative;
+  top: 0px;
+  left: -100px;
+}
+#u{
+  width: 500px;
+  height: 100px;
+  position: relative;
+  top: -20px;
+  left: -100px;
+}
+#e{
+  height: 500px;
+}
+#k{
+  height: 375px;
+}
+#s{
+  height: 300px;
+}
+#p{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  position: fixed;
+}
+.t{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  color: #c1272d;
+}
