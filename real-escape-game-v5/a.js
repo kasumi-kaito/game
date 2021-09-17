@@ -4,7 +4,7 @@ window.onload = function() {
       load();
 }
 function r(){
-          i = 3600;
+          i = 360
 }
 var a = function(){
       i = localStorage.getItem('残り時間')
