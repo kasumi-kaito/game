@@ -1,5 +1,5 @@
 window.onunload = function() {};
- function x(){
+window.onload = function() {
       r();
       l();
 }
@@ -23,17 +23,8 @@ u.innerHTML=　'残り'　+ i + '秒';
       function l(){
             i = localStorage.getItem('残り時間',i)
             }
-            function z(){
-                  clearInterval(g)
-            }
      　function y(){
+      clearInterval(g)
             i = 3600;
             localStorage.setItem('残り時間',i)    
       }
-      function ab(){
-            if(i == null){
-                  i = 3600;
-                  localStorage.setItem('残り時間',i)
-            }
-      }
-     
