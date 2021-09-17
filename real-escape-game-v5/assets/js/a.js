@@ -20,9 +20,9 @@ u.innerHTML=　'残り'　+ i + '秒';
       function load(){
             i = localStorage.getItem('残り時間',i)
             }
-     /* function y(){
+     　function y(){
             clearInterval(g);
             localStorage.clear()
             i = 3600;
             localStorage.setItem('残り時間',i)    
-      }*/
+      }
