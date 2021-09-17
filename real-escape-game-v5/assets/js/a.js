@@ -26,8 +26,3 @@ u.innerHTML=　'残り'　+ i + '秒';
             i = 3600;
             localStorage.setItem('残り時間',i)    
       }
-      function z(){
-            localStorage.clear()
-            i = 3600;
-            localStorage.setItem('残り時間',i)  
-      }
