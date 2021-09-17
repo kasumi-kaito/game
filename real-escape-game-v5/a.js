@@ -1,7 +1,7 @@
 window.onunload = function() {};
-window.onload = function() {
+ function x(){
       r();
-      load();
+      l();
 }
 function r(){
           i = 360
@@ -20,7 +20,7 @@ u.innerHTML=　'残り'　+ i + '秒';
             localStorage.setItem('残り時間',i)   
 }
  g = setInterval(a,1000)
-      function load(){
+      function l(){
             i = localStorage.getItem('残り時間',i)
             }
             function z(){
@@ -30,8 +30,10 @@ u.innerHTML=　'残り'　+ i + '秒';
             i = 3600;
             localStorage.setItem('残り時間',i)    
       }
-      function x(){
-       if(i = null)
-       i = 3600;
-       localStorage.setItem('残り時間',i)
+      function ab(){
+            if(i == null){
+                  i = 3600;
+                  localStorage.setItem('残り時間',i)
+            }
       }
+     
