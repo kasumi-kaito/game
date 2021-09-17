@@ -1,11 +1,13 @@
-window.onload = function() {}
+window.onunload = function() {};
 window.onload = function() {
       r();
       load();
 }
 function r(){
-      i = 3600; }
+          i = 3600;
+}
 var a = function(){
+      i = localStorage.getItem('残り時間')
           i --;
       u = document.getElementById('p')   
 u.innerHTML=　'残り'　+ i + '秒';
