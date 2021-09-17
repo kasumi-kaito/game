@@ -10,7 +10,7 @@ var a = function(){
       i = localStorage.getItem('残り時間')
           i --;
       u = document.getElementById('p')   
-u.innerHTML=　'残り'　+ i + '秒';
+u.innerHTML　=　'残り'　+ i + '秒';
      if(i < 600){
      u.className = 't'
      }
