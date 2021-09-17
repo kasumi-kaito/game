@@ -561,3 +561,6 @@ button {
   width: 1060px;
   height: 450px;
 }
+.ns{
+  opacity: 0;
+}
